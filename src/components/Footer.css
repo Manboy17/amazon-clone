@@ -1,0 +1,82 @@
+.footer__p1 {
+  text-align: center;
+  color: white;
+  background-color: #4f5965;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 15px;
+  margin: 0;
+}
+
+.footer__p1:hover {
+  background-color: #656d78;
+}
+
+.footer {
+  height: 500px;
+  color: white;
+  background-color: #232f3e;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer__container {
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  top: 30px;
+  position: relative;
+}
+
+.footer__title {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer__details > p {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.footer__details > p {
+  cursor: pointer;
+}
+
+.footer__details_two {
+  display: flex;
+  flex-direction: space-between;
+  align-items: center;
+  border-top: 0.2px solid #656d78;
+  margin-top: 140px;
+  padding-top: 25px;
+  padding-left: 350px;
+  cursor: pointer;
+}
+
+.footer__details_two > img {
+  width: 60px;
+  height: 30px;
+  margin-right: 60px;
+  align-items: center;
+  padding-top: 7px;
+}
+
+.footer__footer {
+  display: flex;
+  flex-direction: space-between;
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer__subFooter {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+}
+
+.footer__subFooter > svg {
+  margin-right: 4px;
+}
